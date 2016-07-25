@@ -13,7 +13,7 @@ public class Start {
 		wild.show();
 		wild.doFly();
 		wild.doQuack();
-		wild.setBehaviorFly(new CantFly());
+		wild.setBehaviorFly(new CantFly()); // this is how you can implement public void shoot(Duck d) for Hunter class
 		wild.setBehaviorQuack(new Squeak());
 		wild.doFly();
 		wild.doQuack();
